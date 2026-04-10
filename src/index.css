@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Force Tailwind to scan your components */
+@source "./components/**/*.{js,jsx,ts,tsx}";
+@source "./App.jsx";
+
+@theme {
+  --color-brand: #0ea5e9;
+}
